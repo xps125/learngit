@@ -2,10 +2,48 @@ git is a version control system.
 git is free software.
 senny
 
+1.
 git merge dev :merge the branch "dev" to current branch
 git checkout -b dev: create the branch "dev" and change to the "dev"
 git branch -d dev:delete the branch "dev" but can't delete the current branch
 
+
 git log --graph --pretty=oneline --abbrev-commit:draw a graph about the branch merge.
 
-temporary branch
+git merge --no-ff -m "merge with no-ff" third: forbidden "Fast forward"
+
+git stash:save current work.
+
+2.
+git log --graph --pretty=oneline --abbrev-commit:draw a graph about the branch merge.
+
+3.
+ forbidden "Fast forward" mode:(drop branch message when branches merged)
+ *   062f422 merge with no-ff
+|\
+| * dc54b67 third version
+|/
+*   1f958bb taoy all
+
+"Fast forward" mode:
+*   a7788f3 conflict fixed
+|\
+| * cc5c294 add details for helping remember
+* | a39e442 branch master commit
+|/
+* 23bb5dd new branch
+
+4.
+git merge --no-ff -m "merge with no-ff" third: forbidden "Fast forward"
+
+git stash:save current work.
+
+git stash list:show the saved temp list.
+
+git stash pop: restore the temp,and drop it.
+
+git stash apply:restore it but not drop, and you mast use "git stash drop" to drop it.
+
+git stash apply stash@{0/x}:restore X version temp.
+
+
