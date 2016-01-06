@@ -46,4 +46,8 @@ git stash apply:restore it but not drop, and you mast use "git stash drop" to dr
 
 git stash apply stash@{0/x}:restore X version temp.
 
+5.
+new Feature:to add new function
+eg:git checkout -b feature-vulcan
 
+git branch -D feature-vulcan:Forced delete the branch.
