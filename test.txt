@@ -6,3 +6,4 @@ git merge dev :merge the branch "dev" to current branch
 git checkout -b dev: create the branch "dev" and change to the "dev"
 git branch -d dev:delete the branch "dev" but can't delete the current branch
 
+master
