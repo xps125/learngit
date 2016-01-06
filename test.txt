@@ -8,4 +8,6 @@ git branch -d dev:delete the branch "dev" but can't delete the current branch
 
 git log --graph --pretty=oneline --abbrev-commit:draw a graph about the branch merge.
 
-taoyana
+git merge --no-ff -m "merge with no-ff" third: forbidden "Fast forward"
+
+git stash:save current work.
