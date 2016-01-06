@@ -44,4 +44,6 @@ git stash pop: restore the temp,and drop it.
 
 git stash apply:restore it but not drop, and you mast use "git stash drop" to drop it.
 
+git stash apply stash@{0/x}:restore X version temp.
+
 
