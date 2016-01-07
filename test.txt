@@ -83,3 +83,7 @@ git push origin third:push the branch to remote git
 git checkout -b third origin/third:get the branch "third" from the remote. when you clone from the remote, you just get the master branch.
 git push origin third: push the "third" to remote 
 
+git pull :when conflict exist
+
+rong
+
