@@ -6,6 +6,7 @@ senny
 mkdir gitmy:create folder "gitmy"
 cd gitmy:go to "gitmy"
 git init:make the folder to "git"'s folder;initialize
+git config --global color.ui true: colored display
 
 1.
 git merge dev :merge the branch "dev" to current branch
@@ -84,3 +85,13 @@ git checkout -b third origin/third:get the branch "third" from the remote. when 
 git push origin third: push the "third" to remote 
 
 git pull :when conflict exist
+
+git branch --set-upstream third origin/third: push the branch "third",when conflict. first,  relocate to the remote "third"
+git pull:then pull it.
+
+9.
+
+git push origin --tags:push all tags to remote
+git push origin v1.0
+
+git push origin :refs/tags/v0.9:delete the tags v0.9 from remote
