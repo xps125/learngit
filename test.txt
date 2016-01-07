@@ -7,8 +7,11 @@ mkdir gitmy:create folder "gitmy"
 cd gitmy:go to "gitmy"
 git init:make the folder to "git"'s folder;initialize
 git config --global color.ui true: colored display
+git config --global alias.com commit:make short name,then you can write "git com -m 'sdf'".
+
 
 1.
+git unstage test.txt:revoke the temp file from buffer area
 git merge dev :merge the branch "dev" to current branch
 git checkout -b dev: create the branch "dev" and change to the "dev"
 git branch -d dev:delete the branch "dev" but can't delete the current branch
