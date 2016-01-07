@@ -66,4 +66,20 @@ eg:git tag -a v2.1 -m "version2.1 release" 2354
 
 7.
 create .ssh: ssh-keygen
+c/Users/Administrator/.ssh/id_rsa
+
+add remote git:git remote add origin git@github.com:xps125/learngit.git
+push local message:
+$git push -u orgin master :first time, you must say yes to the warning.
+clone the remote git to local:
+$git clone git@github:xps125/learngit
+
+8.
+git remote: check the local git name
+git remote -v
+
+git push origin third:push the branch to remote git
+
+git checkout -b third origin/third:get the branch "third" from the remote. when you clone from the remote, you just get the master branch.
+git push origin third: push the "third" to remote 
 
