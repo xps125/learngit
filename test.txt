@@ -2,6 +2,11 @@ git is a version control system.
 git is free software.
 senny
 
+0.
+mkdir gitmy:create folder "gitmy"
+cd gitmy:go to "gitmy"
+git init:make the folder to "git"'s folder;initialize
+
 1.
 git merge dev :merge the branch "dev" to current branch
 git checkout -b dev: create the branch "dev" and change to the "dev"
@@ -51,3 +56,14 @@ new Feature:to add new function
 eg:git checkout -b feature-vulcan
 
 git branch -D feature-vulcan:Forced delete the branch.
+
+6.
+git tag
+git tag v2.0 3345346(version)
+
+eg:git tag -a v2.1 -m "version2.1 release" 2354
+-s:private tag name
+
+7.
+create .ssh: ssh-keygen
+
