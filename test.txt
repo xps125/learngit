@@ -84,6 +84,3 @@ git checkout -b third origin/third:get the branch "third" from the remote. when 
 git push origin third: push the "third" to remote 
 
 git pull :when conflict exist
-
-rong
-
